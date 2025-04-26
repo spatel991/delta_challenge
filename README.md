@@ -1,10 +1,9 @@
 # delta_challenge
 Delta Challenge (Selenium + Python)
-Part1: See the 'delta_booking_test_scenarios_masterlist' document
 
-Part2: See 'manual_test_case_A004' and 'manual_test_case_F010' documents
-
-Part3: See automated test work in the GitHub repo or included Selenium python scripts.
+Part 1: See the 'delta_booking_test_scenarios_masterlist' document
+Part 2: See 'manual_test_case_A004' and 'manual_test_case_F010' documents
+Part 3: See automated test work in the GitHub repo or included Selenium python scripts.
 
 Challenges Faced:
 1. Focusing on smaller step tests vs full interaction, documenting as I go to not loose thought.
