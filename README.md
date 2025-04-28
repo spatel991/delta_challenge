@@ -1,7 +1,7 @@
 # delta_challenge
 Delta Challenge (Selenium + Python)
 
-No AI was used to generate code - I promise.
+No AI was used to generate code - I promise. I wanted to give it a good shot on my own.
 
 Part I -  See the 'delta_booking_test_case_masterlist' document for detailed  approach broken down into smaller tests.
 
@@ -14,10 +14,11 @@ https://www.reddit.com/r/delta/comments/1fvb2cy/persistent_error_sfaf001_trying_
 
 Challenges Faced:
 1. Focusing on smaller step tests vs full interaction, documenting as I go to not loose thought.
-2. Delta's website has a lot of dynamic loading, which caused a lot of browser crashing on my setup during Inspections. Also, usage of time.sleep() isn't the best approach. May come back to it if I find a more graceful implementation.
+2. Delta's website has a lot of dynamic loading, which caused a lot of browser crashing on my setup during Inspections. Also, usage of time.sleep() isn't the best approach but I added them to slow down for testing. May come back to it if I find a more graceful implementation.
 4. Manual testing process took a lot longer in some areas due to it only being accessible after verified login. I had to make a dummy login.
 5. For challenges not overcome, I commented out sections and came back to it if I found a better way to tackle it. Also noted in comments as reminder.
 6. Using By.XPATH vs. By.CSS_SELECTOR for find_element - Delta's site is complex I had to use what worked, it doesn't look nice in line.
+7. The calendar datepicker was frustrating - wasn't able to determine the best way to focus on the current date.
 
 
 
