@@ -6,3 +6,5 @@ atl_to_pbi.py - Attempting to automate happy flow for searching for flight from 
 Even when the solution worked a few times, I got a SFA001 error from Delta's site.
 
 delta_login_a004.py - Log in to Delta with valid credentials. This seems to work but the end validation isnt 100% correct. Validation by URL didnt seem to work so I tried to find a focusable element that only would show if you had sucessfully logged in.
+
+partial_test.py - used this for random testing and skipping around and trying things. Sandbox.
